@@ -19,7 +19,7 @@ const carouselImages = [carousel1, carousel2, carousel3];
 
 const categories = [
   { id: 1, name: 'Best Sellers', path: '/women', image: best },
-  { id: 2, name: 'Men', path: '/men', image: men },
+  // { id: 2, name: 'Men', path: '/men', image: men },
   { id: 3, name: 'Women', path: '/women', image: women },
   { id: 4, name: 'Kids', path: '/kids', image: kids },
   { id: 5, name: 'Accessories', path: '/accessories', image: accessories },

@@ -21,7 +21,7 @@ function Navbar() {
           <div>
             <nav className="navbar">
               <ul className="nav-links">
-                {["home", "men", "women", "kids", "accessories"].map((item) => (
+                {["home", "women", "kids", "accessories"].map((item) => (
                   <li key={item}>
                     <Link
                       to={`/${item}`}
@@ -47,7 +47,7 @@ function Navbar() {
         <nav className={`sidebar ${isOpen ? "open" : ""}`}>
           <button className="close-btn" onClick={toggleMenu}>✖</button>
           <ul className="sidebar-menu">
-            {["home", "men", "women", "kids", "accessories"].map((item) => (
+            {["home", "women", "kids", "accessories"].map((item) => (
               <li key={item}>
                 <Link
                   to={`/${item}`}
