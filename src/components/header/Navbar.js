@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
+import logo from './logo.png';
+
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,14 +17,15 @@ function Navbar() {
     <>
       <div className="header">
         <div className="header-content">
-          <div>
-            <h1 className="logo">Saki</h1>
+          <div className="logo">
+            <img src={logo} alt="Saki Logo" />
           </div>
+
 
           <div>
             <nav className="navbar">
               <ul className="nav-links">
-                {["home", "women", "kids", "accessories"].map((item) => (
+                {["home", "kurti", "western", "sarees", "materials", "accessories"].map((item) => (
                   <li key={item}>
                     <Link
                       to={`/${item}`}
