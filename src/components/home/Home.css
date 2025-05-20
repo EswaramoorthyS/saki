@@ -89,10 +89,11 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 16px;
-    margin-top: 20px;
-    padding: 0 10%;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 1.5rem;
+    padding: 1rem;
 }
 
 .show-img {

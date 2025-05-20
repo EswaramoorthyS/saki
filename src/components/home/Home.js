@@ -3,8 +3,10 @@ import './Home.css';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import men from "./categories/men.jpg";
-import women from "./categories/women.png";
+import saree from "./categories/women.png";
+import western from "./categories/western.png";
+import kurti from "./categories/kurti1.png";
+import material from "./categories/material.png";
 import kids from "./categories/kids.png";
 import best from "./categories/best.jpg";
 import accessories from "./categories/accessories.jpg";
@@ -18,11 +20,12 @@ import saree3 from "./show_peices/saree3.jpg";
 const carouselImages = [carousel1, carousel2, carousel3];
 
 const categories = [
-  { id: 1, name: 'Best Sellers', path: '/women', image: best },
-  { id: 2, name: 'Men', path: '/men', image: men },
-  { id: 3, name: 'Women', path: '/women', image: women },
-  { id: 4, name: 'Kids', path: '/kids', image: kids },
-  { id: 5, name: 'Accessories', path: '/accessories', image: accessories },
+  { id: 1, name: 'Best Sellers', path: '/best-seller', image: best },
+  { id: 2, name: 'Kurti', path: '/kurti', image: kurti },
+  { id: 3, name: 'Western', path: '/western', image: western },
+  { id: 4, name: 'Sarees', path: '/sarees', image: saree },
+  { id: 5, name: 'Materials', path: '/materials', image: material },
+  { id: 6, name: 'Accessories', path: '/accessories', image: accessories },
 ];
 
 const sarees = [saree1, saree2, saree3];
